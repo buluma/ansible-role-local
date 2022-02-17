@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Roles under testing [DO NOT USE]
+  homepage: https://buluma.github.io/
+  topics: investigate, ansible, molecule, tox, playbook, hacktoberfest
