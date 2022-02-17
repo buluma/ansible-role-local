@@ -2,7 +2,7 @@
 galaxy_info:
   author: Michael Buluma
   namespace: buluma
-  role_name: roles_under_test
+  role_name: local
   description: Roles under testing [DO NOT USE]
   license: Apache-2.0
   company: none
