@@ -3,7 +3,7 @@ galaxy_info:
   author: Michael Buluma
   namespace: buluma
   role_name: local
-  description: Roles under testing [DO NOT USE]
+  description: Roles under testing
   license: Apache-2.0
   company: none
   min_ansible_version: "2.10"
