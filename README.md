@@ -1,80 +1,38 @@
-# [local](#local)
+Role Name
+=========
 
-Roles under testing [DO NOT USE]
+A brief description of the role goes here.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-local/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-local/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-local/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-local)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/local)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/local)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-local.svg)](https://github.com/buluma/ansible-role-local/releases/)|
+Requirements
+------------
 
-## [Example Playbook](#example-playbook)
+Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
 
-This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
-```yaml
----
-- name: converge
-  hosts: all
-  become: yes
-  gather_facts: yes
+Role Variables
+--------------
 
-  roles:
-    - role: buluma.facts
-      facts:
-        - key: datacenter
-          value: Amsterdam
-        - key: availability_zone
-          value: west
-```
+A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
+Dependencies
+------------
 
-## [Role Variables](#role-variables)
+A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
 
-The default values for the variables are set in `defaults/main.yml`:
-```yaml
----
-# defaults file for ansible-role-local
-```
+Example Playbook
+----------------
 
-## [Requirements](#requirements)
+Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-local/blob/main/requirements.txt).
+    - hosts: servers
+      roles:
+         - { role: username.rolename, x: 42 }
 
+License
+-------
 
-## [Context](#context)
+BSD
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.co.ke/) for further information.
+Author Information
+------------------
 
-Here is an overview of related roles:
-
-![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-local/png/requirements.png "Dependencies")
-
-## [Compatibility](#compatibility)
-
-This role has been tested on these [container images](https://hub.docker.com/u/buluma):
-
-|container|tags|
-|---------|----|
-|alpine|all|
-|amazon|Candidate|
-|el|8|
-|debian|all|
-|fedora|all|
-|opensuse|all|
-|ubuntu|all|
-
-The minimum version of Ansible required is 2.10, tests have been done to:
-
-- The previous version.
-- The current version.
-- The development version.
-
-
-
-If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-local/issues)
-
-## [License](#license)
-
-Apache-2.0
-
-## [Author Information](#author-information)
-
-[Michael Buluma](https://buluma.github.io/)
+An optional section for the role authors to include contact information, or a website (HTML is not allowed).
