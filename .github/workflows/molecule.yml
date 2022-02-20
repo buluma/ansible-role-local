@@ -21,7 +21,10 @@ jobs:
         uses: actions/checkout@v2.4.0
         with:
           path: "${{ github.repository }}"
-
+      - name: molecule
+        uses: buluma/molecule-action@v4.0.6
+        with:
+          command: lint
   test:
     needs:
       - lint
@@ -34,6 +37,8 @@ jobs:
             tag: "latest"
           - image: "amazonlinux"
             tag: "latest"
+          - image: "enterpriselinux"
+            tag: "7"
           - image: "enterpriselinux"
             tag: "latest"
           - image: "debian-systemd"
