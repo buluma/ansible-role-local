@@ -2,7 +2,9 @@
 - name: converge
   hosts: all
   become: yes
-  gather_facts: yes
+  gather_facts: no
+  vars:
+    ansible_remote_tmp: /tmp/ansible
 
   roles:
-    - role: ansible-role-testing
+    - role: ansible-role-local
