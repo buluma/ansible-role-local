@@ -54,6 +54,8 @@ jobs:
             tag: "bionic"
           - image: "docker-ubuntu-systemd"
             tag: "focal"
+          - image: "docker-rockylinux8-ansible"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2.4.0
