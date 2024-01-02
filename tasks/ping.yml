@@ -1,5 +1,4 @@
 ---
 
-- name: ping
-  # ping:
+- name: Ping
   ansible.builtin.ping:
