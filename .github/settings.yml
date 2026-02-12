@@ -5,4 +5,4 @@
 repository:
   description: Local Testing
   homepage: https://buluma.github.io/
-  topics: server, ansible, molecule, tox, playbook
+  topics: server, ansible, molecule, playbook
