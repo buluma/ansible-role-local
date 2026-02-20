@@ -7,4 +7,4 @@
     ansible_remote_tmp: /tmp/ansible
 
   roles:
-    - role: ansible-role-local
+    - role: buluma.local
