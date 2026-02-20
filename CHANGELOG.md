@@ -6,6 +6,10 @@
 
 **Merged pull requests:**
 
+- Bump dependabot/fetch-metadata from 1 to 2 [\#22](https://github.com/buluma/ansible-role-local/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/dependabot-auto-merge-action from 2.0.2 to 2.1.2 [\#21](https://github.com/buluma/ansible-role-local/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump release-drafter/release-drafter from 5 to 6 [\#19](https://github.com/buluma/ansible-role-local/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update molecule.yml [\#18](https://github.com/buluma/ansible-role-local/pull/18) ([buluma](https://github.com/buluma))
 - Bump buluma/molecule-action from 4.0.6 to 4.0.7 [\#5](https://github.com/buluma/ansible-role-local/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3.0.0 to 3.0.2 [\#4](https://github.com/buluma/ansible-role-local/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2.4.0 to 3.0.0 [\#2](https://github.com/buluma/ansible-role-local/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))

@@ -17,7 +17,7 @@ Here is how you can help, a lot of steps are related to GitHub, not specifically
 
 When you spot an issue, [create an issue](https://github.com/buluma/ansible-role-local/issues).
 
-Raising the issue helps me and others to find similar problems and solutions in the future.
+Making the issue help me and others to find similar problems in the future.
 
 ### [2. Fork the project.](#2-fork-the-project)
 
@@ -29,30 +29,24 @@ In you own GitHub namespace, make the required changes.
 
 I typically do that by cloning the repository (in your namespace) locally:
 
-```
+```shell
 git clone git@github.com:YOURNAMESPACE/ansible-role-local.git
 ```
 
-Now you can start to edit on your laptop/PC.
+Now you can start to edit on your laptop.
 
 ### [4. Optionally: test your changes](#4-optionally-test-your-changes)
 
-Install [molecule](https://molecule.readthedocs.io/en/stable/) and [Tox](https://tox.readthedocs.io/):
+Install [molecule](https://molecule.readthedocs.io/en/stable/):
 
-```
-pip install molecule tox ansible-lint docker
+```shell
+pip install molecule ansible-lint docker
 ```
 
 And run `molecule test`. If you want to test a specific distribution, set `image` and optionally `tag`:
 
-```
+```shell
 image=centos tag=7 molecule test
-```
-
-Once it start to work, you can test multiple version of Ansible:
-
-```
-image=centos tag=7 tox
 ```
 
 ### [5. Optionally: Regenerate all dynamic content](#5-optionally-regenerate-all-dynamic-content)
@@ -69,7 +63,8 @@ In the comment-box, you can [refer to the issue number](https://help.github.com/
 
 ### [7. Wait](#7-wait)
 
-Now I'll get a message that you've added some code. Thank you, trully.
+Now I'll get a message that you've added some code. Thank you, really.
 
-CI starts to test your changes once pull request is reviewed. You can follow the progress on GitHub.
+CI starts to test your changes. You can follow the progress on Travis.
 
+Please consider [sponsoring me](https://github.com/sponsors/buluma).
