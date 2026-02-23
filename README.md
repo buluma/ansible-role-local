@@ -12,27 +12,27 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: converge
-    hosts: all
-    become: true
-    gather_facts: false
-    vars:
-      ansible_remote_tmp: /tmp/ansible
+- name: converge
+  hosts: all
+  become: true
+  gather_facts: false
+  vars:
+    ansible_remote_tmp: /tmp/ansible
 
-    roles:
-      - role: buluma.local
+  roles:
+  - role: buluma.local
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-local/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: prepare
-    hosts: all
-    become: true
-    gather_facts: false
+- name: prepare
+  hosts: all
+  become: true
+  gather_facts: false
 
-    roles:
+  roles:
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.

@@ -1,10 +1,10 @@
 ---
-  - name: converge
-    hosts: all
-    become: true
-    gather_facts: false
-    vars:
-      ansible_remote_tmp: /tmp/ansible
+- name: converge
+  hosts: all
+  become: true
+  gather_facts: false
+  vars:
+    ansible_remote_tmp: /tmp/ansible
 
-    roles:
-      - role: buluma.local
+  roles:
+  - role: buluma.local
