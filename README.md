@@ -2,9 +2,9 @@
 
 Local Testing
 
-|GitHub|GitLab|Downloads|Version|
-|------|------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-local/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-local/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-local/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-local)|[![downloads](https://img.shields.io/ansible/role/d/buluma/local)](https://galaxy.ansible.com/buluma/local)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-local.svg)](https://github.com/buluma/ansible-role-local/releases/)|
+|GitHub|Issues|Pull Requests|Version|Downloads|
+|------|------|-------------|-------|---------|
+|[![github](https://github.com/buluma/ansible-role-local/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-local/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-local.svg)](https://github.com/buluma/ansible-role-local/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-local.svg)](https://github.com/buluma/ansible-role-local/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-local.svg)](https://github.com/buluma/ansible-role-local/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/local)](https://galaxy.ansible.com/ui/standalone/roles/buluma/local/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -20,7 +20,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
     ansible_remote_tmp: /tmp/ansible
 
   roles:
-  - role: buluma.local
+    - role: buluma.local
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-local/blob/master/molecule/default/prepare.yml):
@@ -56,21 +56,22 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-local/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/buluma):
+This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
 
 |container|tags|
 |---------|----|
-|[Alpine](https://hub.docker.com/r/buluma/alpine)|all|
-|[Amazon](https://hub.docker.com/r/buluma/amazonlinux)|all|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
-|[Debian](https://hub.docker.com/r/buluma/debian)|all|
-|[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
-|[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
+|[Alpine](https://hub.docker.com/r/robertdebock/alpine)|all|
+|[Amazon](https://hub.docker.com/r/robertdebock/amazonlinux)|all|
+|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
+|[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
+|[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
+|[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
+|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -87,3 +88,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
