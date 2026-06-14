@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-local/tree/HEAD)
+## [v26.6.0](https://github.com/buluma/ansible-role-local/tree/v26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.3...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.3...v26.6.0)
 
 **Merged pull requests:**
 
@@ -19,15 +19,15 @@
 
 ## [v1.0.3](https://github.com/buluma/ansible-role-local/tree/v1.0.3) (2022-02-20)
 
-[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.1...v1.0.3)
-
-## [v1.0.1](https://github.com/buluma/ansible-role-local/tree/v1.0.1) (2022-02-17)
-
-[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.2...v1.0.1)
+[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.2...v1.0.3)
 
 ## [v1.0.2](https://github.com/buluma/ansible-role-local/tree/v1.0.2) (2022-02-17)
 
-[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.0...v1.0.2)
+[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.1...v1.0.2)
+
+## [v1.0.1](https://github.com/buluma/ansible-role-local/tree/v1.0.1) (2022-02-17)
+
+[Full Changelog](https://github.com/buluma/ansible-role-local/compare/v1.0.0...v1.0.1)
 
 ## [v1.0.0](https://github.com/buluma/ansible-role-local/tree/v1.0.0) (2022-02-17)
 
