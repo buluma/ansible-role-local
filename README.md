@@ -80,6 +80,13 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 - pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-local/blob/master/requirements.txt).
 
+## [State of used roles](#state-of-used-roles)
+
+The following roles are used to prepare a system. You can prepare your system in another way.
+
+| Requirement | GitHub |
+|-------------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|
 
 ## [Context](#context)
 
